@@ -32,7 +32,7 @@ function Home() {
 
       <div className='hedding-continer'>
 
-        <h1 className='text-center web-title'> <img src={note} className='img' alt='img'/> Noties </h1>
+        <h1 className='text-center web-title'> <img src={note} className='img' alt='img'/> Notes </h1>
         <h6 className='text-center title-info'> "Your brain's backup, always ready."</h6>
       </div>
       <div className='features-continer'>
@@ -50,13 +50,8 @@ function Home() {
         }
       </div>
       <div className='btn-continer'>
-
-
-
        <Link to="/Add"><button className='btn btn-fist'>  Add Note  <img src={pen} className='logo' alt='img'/></button></Link>
        <Link to="/Show"><button className='btn  btn-fist'>  Show Note  <img src={book} className='logo' alt='img'/></button></Link>
-
-
       </div>
 
     </div>
