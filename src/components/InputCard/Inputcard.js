@@ -74,8 +74,6 @@ function Inputcard() {
                 </div>
 
                 <EmojiPicker open={openEmoji}
-
-
                     searchDisabled={true}
                     skinTonesDisabled={true}
                     onEmojiClick={(emojiObject) => {
@@ -84,9 +82,6 @@ function Inputcard() {
                     }}
                     className='input-emoji'
                 />
-
-
-
             </div>
             <div className='btn-continer-add'>
                 <button className='btn btn-input btn-fist'
@@ -102,10 +97,6 @@ function Inputcard() {
                 </Link>
 
             </div>
-
-
-
-
         </div>
     )
 }
