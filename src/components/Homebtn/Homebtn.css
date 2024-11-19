@@ -1,0 +1,14 @@
+.home-icon{
+    height: 8vh;
+    position: fixed;
+    top: 20px  ;
+    left: 20px;
+}
+@media screen and (max-width: 500px) {
+    .home-icon{
+        height: 8vh;
+        position: fixed;
+        top: 90vh;
+        left: 80vw;
+    }
+}

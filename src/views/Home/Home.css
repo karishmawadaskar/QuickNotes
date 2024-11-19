@@ -1,0 +1,45 @@
+
+.hedding-continer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  padding: 20px;  
+}
+.title-img{
+  height: 10vh;
+  
+}
+
+.title-info{
+  font-size: 25px;
+  color: #3C3D37;
+}
+.hight-light{
+  background-color:  #ffffff;
+  color: #000000;
+  
+
+}
+.btn-continer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:15vh 0 ;
+}
+.btn{
+ 
+  padding: 2vh 5vw;
+  font-size: 1.1em;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  margin: 0 6vh;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-fist{
+  background-color: #3572EF;
+  text-decoration: none;
+  margin-top: 10px;
+}

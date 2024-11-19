@@ -1,0 +1,29 @@
+.features-continer{
+    display: flex;
+    justify-content: space-evenly;
+   flex-wrap: wrap;
+  }
+  .features-logo{
+    height: 80px;
+    object-fit: contain;
+  }
+  .features-card{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow:rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  .features-logo:hover{
+    transition: 0.3s;
+    transform: scale(1.04);
+  }
+  .card-info{
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #050C9C;
+  }

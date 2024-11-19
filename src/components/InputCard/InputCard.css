@@ -1,0 +1,63 @@
+.input-continer{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.input-text{
+    height:4.5vh ;
+    width: 28vw;
+    margin: 10px 0px;
+    padding: 5px 8px;
+    background-color: #3ABEF9;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 300;
+    display: block;
+    margin: 10px auto;
+    cursor: pointer;
+}
+.emoji-continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.user-select{
+    height: 5.2vh;
+    width: 29vw;
+}
+.input-emoji{
+    position: fixed !important;
+    top: 40px;
+    left: 37%;
+    }
+
+.btn-continer-add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+   
+}
+@media screen and (max-width:500px){
+    .input-text{
+        width: 70vw;
+    }
+    .input-emoji{
+        position: fixed !important;
+        top: 40px;
+        left: 2%;
+        
+}
+.input-emoji{
+    width: 10vw;
+}
+.btn-continer-add{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+}

@@ -1,0 +1,10 @@
+.img{
+    text-decoration: none;
+}
+.save-note-continer{
+    height: 60vh;
+    overflow-y: scroll;
+}
+.save-note-continer::-webkit-scrollbar{
+    display: none;
+}
