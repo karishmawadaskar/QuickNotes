@@ -2,7 +2,6 @@ import React from 'react'
 import "./Savenote.css"
 import close from "../../assets/delete.png"
 
-
 function TitleCase(str) {
   return str[0].toUpperCase() + str.slice(1);
 }
@@ -30,8 +29,6 @@ function Notecatagery({ category }) {
   )
 }
 
-
-
 function Savenote({index, title, description, category, emoji }) {
   return (
     <div className='note-card'>
@@ -47,7 +44,6 @@ function Savenote({index, title, description, category, emoji }) {
          alt='delimg'
          onClick={()=>{
           DeleteNote(index);
-       
          }}
          
          />
