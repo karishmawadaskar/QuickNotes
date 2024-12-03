@@ -6,7 +6,7 @@
     margin: 15px 30px;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+    box-shadow: 5px 5px 12px 0px grey;
     position: relative;
 }
 .note-card:hover{
@@ -28,7 +28,7 @@
     font-size: 1em;
     min-width: 70px;
     text-align: center;
-
+    border-radius: 5px;
 }
 
 .delete-card{
@@ -38,3 +38,17 @@
     right: 35px;
     cursor: pointer;
 }
+ .bg-shopping{
+    background-color: yellow;
+ }
+ .bg-personal{
+    background-color:darksalmon;
+ }
+
+ .bg-learning{
+    background-color: rgb(109, 228, 109);
+ }
+
+ .bg-work{
+    background-color: aqua;
+ }

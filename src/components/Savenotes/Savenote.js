@@ -2,6 +2,9 @@ import React from 'react'
 import "./Savenote.css"
 import close from "../../assets/delete.png"
 
+function titleCase(str){
+  return str[0].toUpperCase()+str.slice(1);
+}
 
 function DeleteNote(index){
   const savecard = JSON.parse(localStorage.getItem('noties')) || [];
@@ -15,12 +18,12 @@ function Notecatagery({ category }) {
     "shopping": "🛒",
     "work": "👜",
     "personal": "👪",
-    "lerning": "📘"
+    "learning": "📘"
   }
   return (
-    <div className='note-card-category'>
+    <div className={`note-card-category bg-${category}`}>
       <span className='note-category-emoji'>{CATEGORY_EMOJI[category]}</span>
-    
+    {titleCase(category)}
 
     </div>
   )

@@ -2,7 +2,7 @@
     text-decoration: none;
 }
 .save-note-continer{
-    height: 60vh;
+    height: 80vh;
     overflow-y: scroll;
 }
 .save-note-continer::-webkit-scrollbar{

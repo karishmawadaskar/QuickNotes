@@ -66,7 +66,7 @@ function Inputcard() {
                     <option value='shopping'>Shopping</option>
                     <option value='work'>Work</option>
                     <option value='personal'>Personal</option>
-                    <option value='lerning'>Lerning</option>
+                    <option value='learning'>Learning</option>
                 </select>
                 <div className='emoji-continer input-text' onClick={() => { setopenEmoji(true) }}>
                     {emoji ? emoji : 'Select emoji'}
